@@ -1,0 +1,6 @@
+framework module Pods_PoseFit {
+  umbrella header "Pods-PoseFit-umbrella.h"
+
+  export *
+  module * { export * }
+}

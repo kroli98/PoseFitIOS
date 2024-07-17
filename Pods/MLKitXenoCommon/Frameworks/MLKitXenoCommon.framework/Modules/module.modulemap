@@ -1,0 +1,24 @@
+framework module MLKitXenoCommon {
+  export *
+  module * { export * }
+  link "c++"
+  link "dl"
+  link "m"
+  link "z"
+  link framework "AVFoundation"
+  link framework "Accelerate"
+  link framework "CoreFoundation"
+  link framework "CoreGraphics"
+  link framework "CoreMedia"
+  link framework "CoreTelephony"
+  link framework "CoreVideo"
+  link framework "Foundation"
+  link framework "GLKit"
+  link framework "Metal"
+  link framework "MetalKit"
+  link framework "OpenGLES"
+  link framework "QuartzCore"
+  link framework "Security"
+  link framework "SystemConfiguration"
+  link framework "UIKit"
+}
