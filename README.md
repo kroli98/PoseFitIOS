@@ -5,7 +5,7 @@ Ez a projekt volt Mérnökinformatikus BSc szakdolgozatom témája, amely a lehe
 Technológia:
   Programozási nyelv: Swift
   Felhasználói felület: SwiftUI
-  Adatkezelés: Core Data
+  Adatkezelés: Firebase
   Pózbecslés: MLKit Pose Detection (Blazepose)
 
 Videó az alkalmazás működéséről: https://drive.google.com/file/d/1-tP1EVJVlIFbhHHh8qnVGeUdU31aO4A-/view?usp=sharing
@@ -17,7 +17,7 @@ This project was the topic of my BSc thesis in Computer Science Engineering, and
 Tech Stack:
   Programming Language: Swift
   User Interface: SwiftUI
-  Data Management: Core Data
+  Data Management: Firebase
   Pose Estimation: MLKit Pose Detection (Blazepose)
 
 Video of how the app works: https://drive.google.com/file/d/1-tP1EVJVlIFbhHHh8qnVGeUdU31aO4A-/view?usp=sharing
