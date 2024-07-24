@@ -1,0 +1,276 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+
+    },
+    "%@" : {
+
+    },
+    "%@ / %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ / %2$@"
+          }
+        }
+      }
+    },
+    "%lld" : {
+
+    },
+    "%lld .hét" : {
+
+    },
+    "%lld / %lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld / %2$lld"
+          }
+        }
+      }
+    },
+    "%lld / %lld sorozat" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld / %2$lld sorozat"
+          }
+        }
+      }
+    },
+    "%lld edzés" : {
+
+    },
+    "%lld másodperc" : {
+
+    },
+    "00:30" : {
+
+    },
+    "2/15" : {
+
+    },
+    "68" : {
+
+    },
+    "90 %" : {
+
+    },
+    "A hét napjai" : {
+
+    },
+    "A hónap napjai" : {
+
+    },
+    "Adatok törlése" : {
+
+    },
+    "Áttekintés" : {
+
+    },
+    "Befejezés" : {
+
+    },
+    "Befejezted az edzést!" : {
+
+    },
+    "Bezár" : {
+
+    },
+    "Biztosan törölni szeretné az adatokat?" : {
+
+    },
+    "Custom Workout" : {
+
+    },
+    "Dismiss" : {
+
+    },
+    "Edzés indítása" : {
+
+    },
+    "Edzés személyre szabása" : {
+
+    },
+    "Edzési napló" : {
+
+    },
+    "Elvégzett gyakorlatok:" : {
+
+    },
+    "Email..." : {
+
+    },
+    "Equipments" : {
+
+    },
+    "Error occured!" : {
+
+    },
+    "Ezen a héten" : {
+
+    },
+    "Fekvőtámasz" : {
+
+    },
+    "Filtered exercises" : {
+
+    },
+    "Get started" : {
+
+    },
+    "Gyakorlati napló törlése" : {
+
+    },
+    "Gyakorlatok" : {
+
+    },
+    "Havi edzési időtartamok" : {
+
+    },
+    "Helyezkedj el a következő gyakorlathoz!" : {
+
+    },
+    "Heti edzési időtartamok" : {
+
+    },
+    "Hiányzó adatok" : {
+
+    },
+    "I already have an account" : {
+
+    },
+    "Időtartam" : {
+
+    },
+    "Időtartam:" : {
+
+    },
+    "Időtartam: %lld  másodperc" : {
+
+    },
+    "Időtartam: %lld perc" : {
+
+    },
+    "Intensity" : {
+
+    },
+    "Ismétlés:" : {
+
+    },
+    "Ismétlések: %lld" : {
+
+    },
+    "kb. %lld perc" : {
+
+    },
+    "Kérem töltse ki a következő mezőket!" : {
+
+    },
+    "Kérjük, töltse ki az összes mezőt." : {
+
+    },
+    "Korrektség: %.2f%%" : {
+
+    },
+    "Következő" : {
+
+    },
+    "Megerősítés" : {
+
+    },
+    "Mégsem" : {
+
+    },
+    "Mentés" : {
+
+    },
+    "Muscle focus" : {
+
+    },
+    "Ne mozgassa a készüléket!." : {
+
+    },
+    "Nem" : {
+
+    },
+    "OK" : {
+
+    },
+    "OK!" : {
+
+    },
+    "Összes adat törlése" : {
+
+    },
+    "Password..." : {
+
+    },
+    "Pozicionálja a telefont, hogy látszódjon!" : {
+
+    },
+    "Saját testsúlyos edzés" : {
+
+    },
+    "Select a workout" : {
+
+    },
+    "Select intensity" : {
+
+    },
+    "Sign in" : {
+
+    },
+    "Sign in with email" : {
+
+    },
+    "Sign up" : {
+
+    },
+    "Sign up with email" : {
+
+    },
+    "Sorozat:" : {
+
+    },
+    "Sorozat: %lld" : {
+
+    },
+    "Start Workout" : {
+
+    },
+    "Személyes adatok" : {
+
+    },
+    "Törlés" : {
+
+    },
+    "Üdv, %@!" : {
+
+    },
+    "Üdvözöljük!" : {
+
+    },
+    "Válaszd ki a gyakorlatokat" : {
+
+    },
+    "Vissza" : {
+
+    },
+    "We give you the tool to build a better version of yourself" : {
+
+    },
+    "Welcome to PoseFit" : {
+
+    },
+    "Workout type" : {
+
+    }
+  },
+  "version" : "1.0"
+}

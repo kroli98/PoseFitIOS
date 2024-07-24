@@ -1,3 +1,8 @@
+# 2024-04-16 -- v1.0.0-beta11
+- Added privacy manifest.
+# 2024-02-20 -- v1.0.0-beta10
+- Raised the minimum supported version of Xcode to 15.1.0.
+- Raised the minimum supported version of iOS from 11.0 to 12.0.
 # 2023-03-21 -- v1.0.0-beta9
 - Raised the minimum supported version of Xcode to 14.2.0.
 - Removed support for bitcode.

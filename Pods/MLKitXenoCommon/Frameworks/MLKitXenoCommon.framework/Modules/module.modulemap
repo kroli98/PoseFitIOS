@@ -1,6 +1,5 @@
 framework module MLKitXenoCommon {
   export *
-  module * { export * }
   link "c++"
   link "dl"
   link "m"

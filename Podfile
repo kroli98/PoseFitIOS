@@ -10,8 +10,12 @@ target 'PoseFit' do
   pod 'GoogleMLKit/PoseDetectionAccurate'
   pod 'GoogleMLKit/SegmentationSelfie'
   pod 'PromisesObjC'
-
-pod 'SDWebImageSwiftUI'
+  pod 'FirebaseAuth'
+  pod 'FirebaseCore'
+  pod 'FirebaseAppCheck'
+  pod 'FirebaseFirestore'
+  pod 'FirebaseAnalytics'
+  pod 'SDWebImageSwiftUI'
 
 
  target 'PoseFitTests' do

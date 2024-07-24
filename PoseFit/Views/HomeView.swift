@@ -38,7 +38,8 @@ struct HomeView: View {
         .ignoresSafeArea(.all, edges: .bottom)
         .onAppear {
           
-            name = UserDefaults.standard.string(forKey: "UserName") ?? "Ismeretlen"
+        
+            
             navigationCoordinator.isNavigating = false
             
             let fetchRequest: NSFetchRequest<Workout> = Workout.fetchRequest()
@@ -53,7 +54,27 @@ struct HomeView: View {
              Alert(title: Text(message.text),
                    dismissButton: .default(Text("Dismiss")))
         }
+        .task{
+            do{
+                let user = try await UserManager.shared.getCurrentUser()
+                if let userName = user.name {
+                    name = userName
+                    return 
+                } else {
+                    print("User name is nil")
+                  
+                    return
+                }
+            }
+            catch{
+                print("Error fetching current user: \(error)")
+            }
+
+
+        }
+        
     }
+   
 }
 
 struct HomeView_Previews: PreviewProvider {

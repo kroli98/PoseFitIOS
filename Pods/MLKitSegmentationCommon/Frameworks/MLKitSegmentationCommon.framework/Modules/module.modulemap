@@ -1,5 +1,7 @@
 framework module MLKitSegmentationCommon {
   umbrella header "MLKitSegmentationCommon.h"
+  
+
   export *
   module * { export * }
   link "c++"

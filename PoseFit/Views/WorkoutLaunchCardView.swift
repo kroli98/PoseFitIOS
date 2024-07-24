@@ -1,7 +1,13 @@
+//
+//  WorkoutLaunchCardView.swift
+//  PoseFit
+//
+//  Created by Kiss Roland on 18/07/2024.
+//
+
 import SwiftUI
 
 struct WorkoutLaunchCardView: View {
-   
     @State var selectedExercises: [Exercise] = []
     @State private var shouldNavigate: Bool = false
     @State var exercises: [Exercise] = Exercises.validExercises
@@ -15,24 +21,8 @@ struct WorkoutLaunchCardView: View {
     var body: some View {
      
                   VStack(spacing: 20) {
-                      Text("Válaszd ki a gyakorlatokat")
-                          .font(.title2)
-                          .padding(.top)
-                      LazyVGrid(columns: columns, spacing: 10) {
-                          ForEach(exercises.indices, id: \.self) { index in
-                              ExerciseView(
-                                  exercise: $exercises[index],
-                                  isSelected: Binding<Bool>(
-                                      get: { self.selectedExercises.contains(where: { $0.id == exercises[index].id }) },
-                                      set: { newValue in
-                                          toggleSelection(for: exercises[index])
-                                      }
-                                  ),   onExerciseModified: { modifiedExercise in
-                                      self.updateSelectedExercise(modifiedExercise)
-                                  }
-                              )
-                          }
-                      }
+                    
+                      
                     
 
                       startExerciseButton
@@ -47,12 +37,12 @@ struct WorkoutLaunchCardView: View {
                  
 
             
-               if let groups = organizedExercisesGroups {
+             
                  
-                   NavigationLink(destination: InWorkoutView(organizedExercisesGroups: groups), isActive: $shouldNavigate) {
+                   NavigationLink(destination: CustomizeWorkoutView(), isActive: $shouldNavigate) {
                        EmptyView()
                    }
-               }
+               
            
        }
 
@@ -60,13 +50,11 @@ struct WorkoutLaunchCardView: View {
 
     var startExerciseButton: some View {
         Button(action: {
-            if !selectedExercises.isEmpty {
-                organizedExercisesGroups = organizedExercises()
-              
+           
                 shouldNavigate = true
-            }
+            
         }) {
-            Text("Edzés indítása")
+            Text("Edzés személyre szabása")
                 .padding()
                 .foregroundColor(Color(UIColor.label))
                 .frame(maxWidth: .infinity)
@@ -114,12 +102,8 @@ struct WorkoutLaunchCardView: View {
      
         return groups
     }
-
-  
 }
 
-struct WorkoutLaunchCardView_Previews: PreviewProvider {
-    static var previews: some View {
-        WorkoutLaunchCardView()
-    }
+#Preview {
+    WorkoutLaunchCardView()
 }

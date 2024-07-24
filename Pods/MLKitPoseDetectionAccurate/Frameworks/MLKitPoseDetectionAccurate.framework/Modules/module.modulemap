@@ -1,5 +1,7 @@
 framework module MLKitPoseDetectionAccurate {
   umbrella header "MLKitPoseDetectionAccurate.h"
+  
+
   export *
   module * { export * }
   link "c++"

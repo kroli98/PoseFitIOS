@@ -1,0 +1,11 @@
+# Xcode
+.DS_Store
+*.swp
+xcuserdata/
+DerivedData/
+Pods
+
+# Build artifacts
+/build/
+*.xcodeproj/xcuserdata/
+PoseFit/GoogleService-Info.plist

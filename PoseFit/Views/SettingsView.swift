@@ -127,7 +127,7 @@ struct SettingsView: View {
                 }
                 .scrollContentBackground(.hidden)
                 
-                NavigationLink(destination: FirstLaunchView(), isActive: $shouldNavigateToFirstLaunch) {
+                NavigationLink(destination: AuthenticationView(), isActive: $shouldNavigateToFirstLaunch) {
                     EmptyView()
                 }
              
@@ -197,6 +197,8 @@ struct SettingsView: View {
         } catch {
             print("Error deleting data: \(error)")
         }
+        
+        AuthenticationManager.shared.signOutUser()
 
         UserDefaults.standard.removeObject(forKey: "UserName")
         UserDefaults.standard.removeObject(forKey: "UserHeight")
